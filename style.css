@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-text,
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar-text {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card {
+    position: inherit;
+}
+
+.main-card {
+    margin: 70px 0px;
+}
+
+.messege-box {
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    position: absolute !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url('images/9ZzSjI.jpg');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.white-container {
+    border-radius: 20px;
+    height: 370px;
+    width: 330px;
+    background-color: rgb(149 243 243);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.signText {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0px 0px 20px;
+}
+
+.user-input {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    width: 256px;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+
+
+}
+
+.user-input::current {
+    box-shadow: 0 6px 0px rgb(108, 108, 248);
+
+}
+
+.email-icon {
+    background: url("https://vectorified.com/images/email-icon-for-resume-14.png") no-repeat 216px;
+    background-color: white;
+    background-size: 20px;
+}
+
+.input-key {
+    background: url("https://icons.iconarchive.com/icons/pixelkit/gentle-edges/128/Key-icon.png") no-repeat 216px;
+    background-color: white;
+    background-size: 20px;
+
+}
+
+.sign-up-btn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: rgba(55, 66, 250, 1.0);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.log-in {
+    text-align: center;
+    margin-top: 17px;
+    font-weight: 500;
+    color: rgba(55, 66, 250, 1.0);
+    cursor: pointer;
+}
+
+.other-log {
+    margin: 24px 15px;
+    font-size: small;
+}
+
+.svg {
+    margin-top: 30px;
+    height: 20px;
+    margin-left: 40px;
+
+}
+
+.otherlog {
+    display: flex;
+}
+
+.log-name-icon {
+    background: url("https://logodix.com/logo/1727557.png") no-repeat 216px;
+    background-color: white;
+    background-size: 20px;
+}
+
+.helloImg {
+    height: 130px;
+    display: block;
+}
+
+.emailText {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.verifyBtn {
+    background-color: rgb(149 243 243);
+    border-color: rgba(55, 66, 250, 1.0);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 35px;
+    padding: 10px 40px;
+}
+
+.trueFalse {
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+    font-size: x-large;
+
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: -400px;
+}
+
+.error {
+    padding: 3px;
+    color: red;
+    border: 2px red solid;
+}
+
+#errorlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: -435px;
+}
+
+.signOut {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: rgb(149 243 243);
+    border-radius: 20px;
+    border: 2px rgba(55, 66, 250, 1.0) solid;
+    cursor: pointer;
+}
+
+.signOut:hover {
+    background-color: red;
+}
+
+.main-profile {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(170, 0, 255);
+}
+
+.picture {
+    margin: 10px;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+}
+
+#customButton {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-get {
+    display: none;
+}
+
+.pro-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pro-card {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.space {
+    opacity: 0;
+}
+
+.btn-update {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 7px 16px;
+    background-color: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-arrow {}
+
+.bi-arrow-left {
+    margin-left: 20px;
+}
+
+.main-commit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.commit-card {
+    /* height: 200px; */
+    width: 300px;
+    background-color: #4e73df;
+    padding: 5px;
+}
+
+.user-name-img {
+    display: flex;
+    align-items: center;
+}
+
+.img-user {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.input-title {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 5px;
+}
+
+.blog {
+    padding: 7px;
+    width: 90%;
+}
+
+.card-img-print {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #4e73df;
+}
+.container-user{
+    display: flex;
+    align-items: center;
+}
